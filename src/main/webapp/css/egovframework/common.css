@@ -1,0 +1,242 @@
+@media screen and (max-width:1440px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }    
+    
+    .dropdown {
+        display: inline;
+    }
+    .btn_group {
+        display: none;
+    }
+
+    .swiper-container2 {
+        width: 1300px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }    
+    
+    .dropdown {
+        display: inline;
+    }
+    .btn_group {
+        display: none;
+    }
+
+    .swiper-container2 {
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width:1020px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }    
+    
+    .dropdown {
+        display: inline;
+    }
+    .btn_group {
+        display: none;
+    }
+
+    .swiper-container2 {
+        width: 800px;
+    }
+
+    .mini_board {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer .creater {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:864px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }    
+    
+    .dropdown {
+        display: inline;
+    }
+    .btn_group {
+        display: none;
+    }
+
+    .swiper-container2 {
+        width: 664px;
+    }
+
+    footer .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer .creater {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }    
+    
+    .dropdown {
+        display: inline;
+    }
+    .btn_group {
+        display: none;
+    }
+
+    .main_title>.title {
+        max-width: 35%;
+    }
+
+    .main_title>.title h2 {
+        font-size: 28px;
+    }
+
+    .swiper-container2 {
+        width: 568px;
+    }
+
+    footer .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    footer .creater {
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width:624px) {
+    .container {
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    nav ul {
+        display: none;
+    }    
+    
+    .dropdown {
+        display: inline;
+    }
+    .btn_group {
+        display: none;
+    }
+
+    .main_title>.title {
+        max-width: 35%;
+    }
+
+    .main_title>.title h2 {
+        font-size: 25px;
+    }
+
+
+    .swiper-container2 {
+        width: 468px;
+    }
+
+    .slide-item img {
+        width: auto;
+        height: auto;
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .slide-item {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+/* btn_layout area */
+.gray_btn {
+    padding: 8px 12px 8px 12px;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+    border-radius: 5px;
+}
+
+.gray_btn:hover {
+    background-color: #6c757d;
+    color: #fff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color;
+}
+
+.yello_btn {
+    padding: 8px 12px 8px 12px;
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    border-radius: 5px;
+}
+
+.yello_btn:hover {
+    background-color: #ffc107;
+    color: #212529;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.blue_btn {
+    padding: 8px 12px 8px 12px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+}
+
+.blue_btn:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+
+/* btn_layout area end */
+
