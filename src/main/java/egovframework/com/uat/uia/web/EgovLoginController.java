@@ -153,7 +153,8 @@ public class EgovLoginController {
 			// 2019.10.01 로그인 인증세션 추가
 			request.getSession().setAttribute("accessUser", resultVO.getUserSe().concat(resultVO.getId()));
 
-			return "redirect:/uat/uia/actionMain.do";
+			return "redirect:/template/main.do";
+//			return "redirect:/template/main.do
 
 		} else {
 			model.addAttribute("message", egovMessageSource.getMessage("fail.common.login", request.getLocale()));
@@ -200,9 +201,9 @@ public class EgovLoginController {
 		LOGGER.debug("main_page > {}", main_page);
 
 		if (main_page.startsWith("/")) {
-			return "forward:" + "egovframework/template/main.page";
+			return "forward:" + "main.page";
 		} else {
-			return "egovframework/template/main.page";
+			return "main.page";
 		}
 
 		/*
