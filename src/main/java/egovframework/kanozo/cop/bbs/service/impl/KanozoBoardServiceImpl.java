@@ -1,7 +1,11 @@
 package egovframework.kanozo.cop.bbs.service.impl;
 
-import egovframework.kanozo.cop.bbs.service.KanozoBoardService;
+import org.springframework.stereotype.Service;
 
-public class KanozoBoardServiceImpl implements KanozoBoardService{
+import egovframework.kanozo.cop.bbs.service.KanozoBoardService;
+import egovframework.rte.fdl.cmmn.EgovAbstractServiceImpl;
+
+@Service
+public class KanozoBoardServiceImpl extends EgovAbstractServiceImpl implements KanozoBoardService{
 
 }
