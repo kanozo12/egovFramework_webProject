@@ -13,6 +13,8 @@
     <script src="/webjars/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="/webjars/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/b79e81a6e4.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <script>
         $(function () {
             if (document.body.clientHeight > window.innerHeight - 24) {
@@ -31,8 +33,8 @@
     <tiles:insertAttribute name="footer" />
    
    	<script src="/webjars/tinymce/4.8.5/tinymce.min.js"></script>
-	<script src="/js/app.js"></script>
-	<script src="/js/comment.js"></script>
+	<script src="/js/egovframework/app.js"></script>
+	<script src="/js/egovframework/comment.js"></script>
 </body>
 
 </html>

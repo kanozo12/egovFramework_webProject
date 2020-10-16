@@ -32,7 +32,7 @@
   
     <tiles:insertAttribute name="footer" />
    
-	<script src="/js/slide.js"></script>
+	<script src="/js/egovframework//slide.js"></script>
 </body>
 
 </html>
