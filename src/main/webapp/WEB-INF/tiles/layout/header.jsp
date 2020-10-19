@@ -27,7 +27,7 @@
 		<div class="header_right">
 			<nav>
 				<ul>
-					<li><a href="/board/list.do">CodeBook</a></li>
+					<li><a href="	/cop/bbs/selectArticleList.do?bbsId=BBSMSTR_000000000011">CodeBook</a></li>
 					<li><a href="/board/list2">FreeBoard</a></li>
 					<li><a href="/notice/noticeList">Notice</a></li>
 					<li><a href="#">FAQ</a></li>
