@@ -7,7 +7,7 @@
 			<i class="far fa-user"></i>
 			<p>Yoo Jun Woo</p>
 		</div>
-
+		 <div id="map" style="width:300px;height:200px;"></div>
 		<div class="creater">
 			<p>Yoo Jun Woo</p>
 			<i class="far fa-user"></i>

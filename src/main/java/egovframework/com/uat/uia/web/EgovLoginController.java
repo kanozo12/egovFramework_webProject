@@ -105,7 +105,7 @@ public class EgovLoginController {
 		if (message != null)
 			model.addAttribute("message", message);
 
-		return "egovframework/com/uat/uia/EgovLoginUsr";
+		return "egovframework/com/uat/uia/EgovLoginUsrCustom";
 	}
 
 	/**
