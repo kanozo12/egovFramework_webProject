@@ -10,5 +10,10 @@ public class DefulatController {
 	public String defaultMainPage() {
 		return "main.page";
 	}
-
+	
+	
+	@RequestMapping(value="/profile.do")
+	public String profilePage() {
+		return "egovframework/profile/profile";
+	}
 }

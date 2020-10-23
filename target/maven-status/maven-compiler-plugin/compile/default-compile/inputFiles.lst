@@ -92,6 +92,7 @@ C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframewo
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cop\bbs\web\EgovBBSMasterController.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\utl\fcc\service\EgovDateUtil.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cop\tpl\service\impl\TemplateManageDAO.java
+C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\kanozo\com\DefulatController.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cop\com\service\EgovUserInfManageService.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cop\bbs\service\BoardMasterVO.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\sym\cal\service\impl\RestdeManageDAO.java
@@ -117,6 +118,7 @@ C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframewo
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cmm\AltibaseClobStringTypeHandler.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cmm\service\impl\EgovComAbstractDAO.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\sym\cal\web\EgovCalRestdeManageController.java
+C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\kanozo\admin\AdminController.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cop\ems\service\impl\EgovSndngMailDetailServiceImpl.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\cop\ems\service\impl\EgovSndngMailServiceImpl.java
 C:\hrd_dev\eGovFrameDev-3.9.0-64bit\workspace\hrd_egov\src\main\java\egovframework\com\uat\uia\service\impl\LoginDAO.java

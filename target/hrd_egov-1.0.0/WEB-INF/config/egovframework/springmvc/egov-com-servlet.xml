@@ -56,11 +56,24 @@
 			</props>
 		</property>
 	</bean>
-
+	
+	<!-- for tiles -->
+	<bean id="tilesViewResolver" class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass" value="org.springframework.web.servlet.view.tiles3.TilesView" />
+		<property name="order" value="0" />
+	</bean>
+	<bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
+		<property name="definitions">
+			<list>
+				<value>/WEB-INF/tiles/default-layout.xml</value>
+			</list>
+		</property>
+	</bean>	    
+	
 	<!-- for JFile -->
-	<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" p:order="0"/>
+	<bean class="org.springframework.web.servlet.view.BeanNameViewResolver" p:order="1"/>
 
-	<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver" p:order="1" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" p:viewClass="org.springframework.web.servlet.view.JstlView"/>
+	<bean class="org.springframework.web.servlet.view.UrlBasedViewResolver" p:order="2" p:prefix="/WEB-INF/jsp/" p:suffix=".jsp" p:viewClass="org.springframework.web.servlet.view.JstlView"/>
 		  
 	<bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" id="jsonView">
 		<property name="contentType" value="text/html;charset=UTF-8"/>

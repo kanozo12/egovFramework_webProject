@@ -17,6 +17,6 @@
 		<jsp:forward page="/uat/uia/egovLoginUsr.do"/>
 	</c:if>
 	
-	<p>${loginVO.name }환영합니다!</p>
+	<p>${loginVO.name }환영합니다 !</p> 
 </body>
 </html>

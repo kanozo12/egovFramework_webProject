@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.margin_area {
+    margin-top: 3rem;
+}
+
+/* header area */
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+.header_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+header>h2 {
+    margin-left: 20px;
+}
+
+header>nav {
+    height: 100%;
+}
+
+header ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul>li {
+    font-size: 18px;
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* drop down menu */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+}
+
+.dropdown i {
+    font-size: 35px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/* drop down menu end */
+
+/* header area end */
+
+/* main slide area */
+#slide {
+    width: 100%;
+    height: 800px;
+
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.main_title {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.main_title>.title {
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    opacity: 0.6;
+    border-radius: 10px;
+}
+
+.main_title>.title h2 {
+    font-size: 35px;
+}
+
+/* card area */
+.card {
+    padding: 0 20px 0 20px;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 350px;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.swiper-container2 {
+    width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.slide-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide-item>.img {
+    flex: 2;
+    width: 100%;
+
+}
+
+.slide-item>.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-item>.content {
+    flex: 1;
+    background-color: #f3f3f3;
+    padding: 30px;
+    text-align: left;
+}
+
+/* card area end */
+
+/* main slide area end*/
+
+/* content area */
+#main_content {
+    background-color: #e2e2e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mini_board {
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mini_board_title p {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.mini_board_content {
+    padding: 15px;
+}
+
+.mini_board_content p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+    border-bottom: 1px solid #808080;
+    padding: 10px;
+}
+
+.mini_board .item_btn {
+    float: right;
+}
+
+.mini_board .item {
+    width: 100%;
+    padding: 20px;
+}
+
+/* content area end */
+
+/* footer area */
+footer {
+    height: 300px;
+    background-color: #999999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+}
+
+footer .creater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .creater i {
+    font-size: 50px;
+}
+
+footer p {
+    font-size: 20px;
+    padding: 10px;
+}
+footer .copy {
+    padding: 10px;
+    font-size: 20px;
+    bottom: 0;
+    justify-content: flex-end;
+}
+
+/* footer area end */
+
