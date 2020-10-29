@@ -75,10 +75,10 @@
 						<p class="title">FAQ</p>
 					</div>
 					<div class="mini_board_content">
-					<%-- 	<c:forEach var="i" begin="0" end="3">
+					<c:forEach var="i" begin="0" end="3">
 							${free[i].content}
 						</c:forEach>
-					</div> --%>
+					</div> 
 					<a href="/board/list2" class="item_btn gray_btn">more FAQ</a>
 				</div>
 			</div>
